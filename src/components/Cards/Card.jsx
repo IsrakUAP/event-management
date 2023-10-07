@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 
 
 const Card = ({card}) => {
@@ -13,7 +14,9 @@ const Card = ({card}) => {
     <p>{price}</p>
     <p>{short_description}</p>
     <div className="card-actions">
+        <NavLink to={`/servicedetails/${name}`}>
       <button className="btn btn-accent">Join</button>
+      </NavLink>
     </div>
   </div>
 </div>

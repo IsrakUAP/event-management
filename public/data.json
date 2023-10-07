@@ -3,36 +3,44 @@
         "name": "Personalized Yoga Sessions",
         "image": "https://i.ibb.co/Ht0gYvJ/depositphotos-419877546-stock-illustration-yoga-class-vector-flat-cartoon.webp",
         "price": "$50 per session",
-        "short_description": "Tailored yoga sessions designed to enhance flexibility, strength, and inner peace."
+        "short_description": "Tailored yoga sessions designed to enhance flexibility, strength, and inner peace.",
+        "details": "Our personalized yoga sessions cater to individuals seeking a customized approach to their practice. Whether you're a beginner or an experienced yogi, our expert instructors will create a session tailored to your specific needs and goals. Experience the transformative power of yoga in a one-on-one setting."
+        
     },
     {
         "name": "Mindfulness Meditation Classes",
         "image": "https://i.ibb.co/FXbTdBj/Outstanding-Set-of-Yoga-Instructor-Vectors-1.jpg",
         "price": "$40 per class",
-        "short_description": "Guided meditation classes focused on mindfulness, relaxation, and mental clarity."
+        "short_description": "Guided meditation classes focused on mindfulness, relaxation, and mental clarity.",
+        "details": "Immerse yourself in the world of mindfulness with our meditation classes. Led by experienced meditation guides, these classes provide a serene environment where you can learn and practice mindfulness techniques. Discover relaxation, inner peace, and improved mental clarity as you embark on a journey of self-discovery."
     },
     {
         "name": "Expert Nutrition Counseling",
         "image": "https://i.ibb.co/LQNLBjJ/nutritionist-recommendations-cartoon-composition-dietitian-appointment-healthy-meal-fruit-vegetables.webp",
         "price": "$60 per session",
-        "short_description": "Individualized nutrition consultations with certified experts for a healthier lifestyle."
+        "short_description": "Individualized nutrition consultations with certified experts for a healthier lifestyle.",
+        "details": "Our nutrition counseling services offer personalized guidance for individuals striving to achieve optimal health. Our certified nutrition experts will assess your dietary habits, create customized nutrition plans, and provide ongoing support to help you achieve your wellness goals. Make informed choices and embark on a path to a healthier, happier you."
     },
     {
         "name": "Fitness Workshops and Classes",
         "image": "https://i.ibb.co/17J7nw7/360-F-206948435-ZU6odq-NIl-Oo6jg-M8p6-Goc4-GSrw-Mj6tx-V.jpg",
         "price": "$55 per workshop",
-        "short_description": "Interactive fitness workshops and classes for all fitness levels, promoting overall well-being."
+        "short_description": "Interactive fitness workshops and classes for all fitness levels, promoting overall well-being.",
+        "details": "Join our interactive fitness workshops and classes designed for individuals of all fitness levels. From cardio exercises to strength training and flexibility routines, our experienced fitness instructors will guide you through engaging and effective workouts. Experience improved stamina, strength, and overall well-being in a supportive and encouraging environment."
     },
     {
         "name": "Stress Relief Therapies",
         "image": "https://i.ibb.co/4W0PyTD/how-to-reduce-stress-5207327-FINAL-907db114a640431ba1e8ecbb9e81b77f.jpg",
         "price": "$70 per session",
-        "short_description": "Therapeutic sessions and techniques aimed at reducing stress, promoting relaxation, and restoring balance."
+        "short_description": "Therapeutic sessions and techniques aimed at reducing stress, promoting relaxation, and restoring balance.",
+        "details": "Therapeutic sessions and techniques aimed at reducing stress, promoting relaxation, and restoring balance.",
+        "details": "Our stress relief therapies provide a holistic approach to managing stress and promoting relaxation. Experience a range of therapeutic techniques, including massage therapy, aromatherapy, and relaxation exercises. Our skilled therapists will help you unwind, alleviate tension, and restore balance to your mind and body. Rediscover tranquility and emotional well-being."
     },
     {
         "name": "Community Wellness Events",
         "image": "https://i.ibb.co/rQ4b0pc/Vendor-Fair.png",
         "price": "Free admission",
-        "short_description": "Engaging community events focused on wellness, including seminars, workshops, and group activities."
+        "short_description": "Engaging community events focused on wellness, including seminars, workshops, and group activities.",
+        "details": "Participate in our vibrant community wellness events aimed at fostering a sense of belonging and well-being. From informative seminars on health topics to interactive workshops and group activities, these events provide opportunities for learning, connection, and personal growth. Join us for enriching experiences, make new friends, and be a part of a supportive wellness community."
     }
 ]
