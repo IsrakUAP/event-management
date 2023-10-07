@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Personalized Yoga Sessions",
+        "image": "https://i.ibb.co/Ht0gYvJ/depositphotos-419877546-stock-illustration-yoga-class-vector-flat-cartoon.webp",
+        "price": "$50 per session",
+        "short_description": "Tailored yoga sessions designed to enhance flexibility, strength, and inner peace."
+    },
+    {
+        "name": "Mindfulness Meditation Classes",
+        "image": "https://i.ibb.co/FXbTdBj/Outstanding-Set-of-Yoga-Instructor-Vectors-1.jpg",
+        "price": "$40 per class",
+        "short_description": "Guided meditation classes focused on mindfulness, relaxation, and mental clarity."
+    },
+    {
+        "name": "Expert Nutrition Counseling",
+        "image": "https://i.ibb.co/LQNLBjJ/nutritionist-recommendations-cartoon-composition-dietitian-appointment-healthy-meal-fruit-vegetables.webp",
+        "price": "$60 per session",
+        "short_description": "Individualized nutrition consultations with certified experts for a healthier lifestyle."
+    },
+    {
+        "name": "Fitness Workshops and Classes",
+        "image": "https://i.ibb.co/17J7nw7/360-F-206948435-ZU6odq-NIl-Oo6jg-M8p6-Goc4-GSrw-Mj6tx-V.jpg",
+        "price": "$55 per workshop",
+        "short_description": "Interactive fitness workshops and classes for all fitness levels, promoting overall well-being."
+    },
+    {
+        "name": "Stress Relief Therapies",
+        "image": "https://i.ibb.co/4W0PyTD/how-to-reduce-stress-5207327-FINAL-907db114a640431ba1e8ecbb9e81b77f.jpg",
+        "price": "$70 per session",
+        "short_description": "Therapeutic sessions and techniques aimed at reducing stress, promoting relaxation, and restoring balance."
+    },
+    {
+        "name": "Community Wellness Events",
+        "image": "https://i.ibb.co/rQ4b0pc/Vendor-Fair.png",
+        "price": "Free admission",
+        "short_description": "Engaging community events focused on wellness, including seminars, workshops, and group activities."
+    }
+]
