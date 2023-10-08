@@ -1,25 +1,40 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Providers/ContextProvider";
-
+import swal from 'sweetalert';
 
 const Registration = () => {
      const {createUser}= useContext(AuthContext)
+     const [passwordError, setPasswordError] = useState("");
+     const handlePasswordChange = (e) => {
+        const password = e.target.value;
+        const passwordCheck = /^(?=.*[A-Z])(?=.*[!@#$%^&*(),.?":{}|<>]).{6,}$/;
+    
+        if (!passwordCheck.test(password)) {
+          setPasswordError(
+            "Password must be at least 6 characters long, contain at least one capital letter, and one special character."
+          );
+        } else {
+          setPasswordError("");
+        }
+      };
 
     const handleRegistration = e =>{
         e.preventDefault();
         const form = new FormData(e.currentTarget);
-        const name = form.get('name');
-        const photo = form.get('photo');
+        const displayName = form.get('displayName');
+        const photoURL = form.get('photoURL');
         const email = form.get('email');
         const password = form.get('password');
-        createUser(email,password)
-        .then(result =>{
-            console.log(result.user)
-        })
+        createUser(email,password,displayName,photoURL)
+        .then((result) => {
+            console.log(result.user);
+            swal("Good job!", "Registration successful!", "success");
+          })
         .catch(error=>{
             console.log(error)
         })
+        
      }
     return (
         <div>
@@ -33,13 +48,13 @@ const Registration = () => {
           <label className="label">
             <span className="label-text">Name</span>
           </label>
-          <input type="text" placeholder="name" name="name" className="input input-bordered" required />
+          <input type="text" placeholder="name" name="displayName" className="input input-bordered" required />
         </div>
         <div className="form-control">
           <label className="label">
             <span className="label-text">Photo URL</span>
           </label>
-          <input type="text" placeholder="photo url" name="photo" className="input input-bordered" required />
+          <input type="url" placeholder="photo url" name="photoURL" className="input input-bordered" required />
         </div>
 
         <div className="form-control">
@@ -48,12 +63,15 @@ const Registration = () => {
           </label>
           <input type="email" placeholder="email" name="email" className="input input-bordered" required />
         </div>
-        <div className="form-control">
+        <div className="form-control relative">
           <label className="label">
             <span className="label-text">Password</span>
           </label>
-          <input type="password" placeholder="password" name="password" className="input input-bordered" required />
-        </div>
+          <input onChange={handlePasswordChange} type="password" placeholder="password" name="password" className="input input-bordered" required />
+              {passwordError && (
+              <p className="text-red-500 mt-2">{passwordError}</p>
+            )}
+            </div>
         <div className="form-control mt-6">
           <button className="btn btn-accent">Register</button>
         </div>

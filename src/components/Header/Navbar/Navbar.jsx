@@ -1,7 +1,28 @@
-import { NavLink } from "react-router-dom";
+import { useContext, useEffect, useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../../Providers/ContextProvider";
+import { getAuth } from "firebase/auth";
 
 
 const Navbar = () => {
+    const { user, logout,createUser  } = useContext(AuthContext);
+    const [displayName, setDisplayName] = useState("");
+    const [photoURL, setPhotoURL] = useState("");
+
+    useEffect(() => {
+        const auth = getAuth();
+        const currentUser = auth.currentUser;
+
+        if (currentUser) {
+            setDisplayName(currentUser.displayName);
+            setPhotoURL(currentUser.photoURL);
+        }
+    }, [user,createUser ]);
+
+    const handleSignout = () => {
+        logout();
+    };
+
     return (
         <div className="navbar bg-base-100">
             <div className="flex-1 items-center navbar-start">
@@ -32,9 +53,22 @@ const Navbar = () => {
                     </NavLink>
 
                 </ul>
-            </div>
+            </div>         
             <div className=" flex-1 navbar-end">
-                <button className="btn btn-accent">LOGIN</button>
+            {user ? (
+                    <div className="flex items-center">
+                        <img className="rounded-full h-8 w-8 mr-2" src={photoURL} alt="User" />
+                        <p className="text-gray-700">{displayName}</p>
+                        <button onClick={handleSignout} className="btn btn-accent ml-2">
+                            Sign Out
+                        </button>
+                    </div>
+                ) : (
+                    <Link to="/login">
+                        <button className="btn btn-accent">LOGIN</button>
+                    </Link>
+                )}
+                
             </div>
         </div>
     );
