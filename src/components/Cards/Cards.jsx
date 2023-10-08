@@ -2,7 +2,6 @@ import Card from "./Card";
 
 
 const Cards = ({cards}) => {
-    console.log(cards);
     return (
         <div>
             <p className=" text-center mt-4 font-semibold text-[35px]">Services We Offer</p>

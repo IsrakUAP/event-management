@@ -8,7 +8,7 @@ const Navbar = () => {
                <img className=" h-[120px] w-[100px]" src="https://i.ibb.co/GWbctxd/care-medicine-logo-designs-vector-23100641-removebg-preview-1.png" alt="" /> <span className=" text-[25px] font-semibold text-red-500">Wellness Center</span>
             </div>
             <div className="flex-1 navbar-center">
-                <ul className="menu menu-horizontal px-1 gap-2">
+                <ul className="menu menu-horizontal px-1 gap-4">
                     <NavLink
                         to="/"
                         className={({ isActive, isPending }) =>
