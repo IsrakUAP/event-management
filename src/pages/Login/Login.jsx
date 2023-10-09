@@ -9,9 +9,11 @@ const auth = getAuth(app);
 const Login = () => {
     const {logIn} =useContext(AuthContext);
     const provider = new GoogleAuthProvider();
+    const [loading,setLoading]= useState(true);
     const location = useLocation();
     const navigate = useNavigate();
     const handGoogleLogin = () => {
+        setLoading(true);
         signInWithPopup(auth, provider)
           .then((result) => {
             const user = result.user;
@@ -60,8 +62,8 @@ const Login = () => {
 
     return (
         <div>
-  <div className="hero-content lg:flex-col">
-    <div className="text-center lg:text-center">
+  <div className="hero-content flex-col">
+    <div className="text-center md:text-center">
       <h1 className="text-4xl font-bold">Login</h1>
     </div>
     <div className="w-full max-w-sm  bg-base-100">
@@ -89,7 +91,7 @@ const Login = () => {
         </div>
       </form>
       
-      <p className="text-center lg:text-center">Create new accout  <Link className=" text-xl font-semibold text-teal-500" to='/registration'>Registration</Link> </p>
+      <p className="text-center lg:text-center">Create new accout  <Link className=" text-xl font-semibold text-teal-500" to='/registration'>Register</Link> </p>
     </div>
   </div>
 </div>

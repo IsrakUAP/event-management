@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Alice Johnson",
+      "role": "Yoga Instructor",
+      "contactinfo": "alice.yoga@example.com",
+      "visitinghour": "Mon-Fri: 9 AM - 5 PM"
+    },
+    {
+      "name": "David Smith",
+      "role": "Meditation Guide",
+      "contactinfo": "david.meditation@example.com",
+      "visitinghour": "Tue-Sat: 10 AM - 6 PM"
+    },
+    {
+      "name": "Emma Turner",
+      "role": "Nutritionist",
+      "contactinfo": "emma.nutrition@example.com",
+      "visitinghour": "Mon, Wed, Fri: 8 AM - 4 PM"
+    },
+    {
+      "name": "James Parker",
+      "role": "Fitness Trainer",
+      "contactinfo": "james.fitness@example.com",
+      "visitinghour": "Mon-Sat: 7 AM - 3 PM"
+    },
+    {
+      "name": "Olivia White",
+      "role": "Stress Relief Therapist",
+      "contactinfo": "olivia.stressrelief@example.com",
+      "visitinghour": "Thu-Sun: 11 AM - 7 PM"
+    },
+    {
+      "name": "Sophia Lee",
+      "role": "Community Events Coordinator",
+      "contactinfo": "sophia.events@example.com",
+      "visitinghour": "Tue, Thu, Sat: 9 AM - 5 PM"
+    },
+    {
+      "name": "Liam Brown",
+      "role": "Yoga Instructor",
+      "contactinfo": "liam.yoga@example.com",
+      "visitinghour": "Mon-Fri: 10 AM - 6 PM"
+    },
+    {
+      "name": "Ava Evans",
+      "role": "Meditation Guide",
+      "contactinfo": "ava.meditation@example.com",
+      "visitinghour": "Wed-Sun: 11 AM - 7 PM"
+    },
+    {
+      "name": "Noah Harris",
+      "role": "Nutritionist",
+      "contactinfo": "noah.nutrition@example.com",
+      "visitinghour": "Mon, Thu, Sat: 8 AM - 4 PM"
+    },
+    {
+      "name": "Charlotte Turner",
+      "role": "Fitness Trainer",
+      "contactinfo": "charlotte.fitness@example.com",
+      "visitinghour": "Tue-Sun: 7 AM - 3 PM"
+    },
+    {
+      "name": "Lucas Mitchell",
+      "role": "Stress Relief Therapist",
+      "contactinfo": "lucas.stressrelief@example.com",
+      "visitinghour": "Thu-Mon: 11 AM - 7 PM"
+    },
+    {
+      "name": "Amelia Clark",
+      "role": "Community Events Coordinator",
+      "contactinfo": "amelia.events@example.com",
+      "visitinghour": "Mon, Wed, Fri: 9 AM - 5 PM"
+    }
+  ]
+  

@@ -14,7 +14,7 @@ const ServiceDetails = () => {
     },[name,cards])
     
     return (
-        <div className="flex h-[80vh]">
+        <div className="flex h-auto">
             <Details card={card}></Details>
         </div>
     );

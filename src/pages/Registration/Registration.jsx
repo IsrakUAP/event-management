@@ -38,7 +38,7 @@ const Registration = () => {
      }
     return (
         <div>
-            <div className="hero-content lg:flex-col">
+            <div className="hero-content flex-col">
     <div className="text-center lg:text-center">
       <h1 className="text-4xl font-bold">Register</h1>
     </div>
@@ -54,7 +54,7 @@ const Registration = () => {
           <label className="label">
             <span className="label-text">Photo URL</span>
           </label>
-          <input type="url" placeholder="photo url" name="photoURL" className="input input-bordered" required />
+          <input type="text" placeholder="photo url" name="photoURL" className="input input-bordered" required />
         </div>
 
         <div className="form-control">
@@ -76,7 +76,7 @@ const Registration = () => {
           <button className="btn btn-accent">Register</button>
         </div>
       </form>
-      <p className="text-center lg:text-center">Have an accout  <Link className=" text-xl font-semibold text-teal-500" to='/login'>Login</Link> </p>
+      <p className="text-center lg:text-center">Already have an accout? <Link className=" text-xl font-semibold text-teal-500" to='/login'>Login here!</Link></p>
     </div>
   </div>
         </div>
